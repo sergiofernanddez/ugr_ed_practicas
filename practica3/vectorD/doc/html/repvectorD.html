@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>vectorD: Rep del TDA vectorD</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">vectorD
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('repvectorD.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">Rep del TDA <a class="el" href="classvectorD.html">vectorD</a> </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p>iterador final (siguiente al ultimo) sobre elementos no nulos</p>
+<h1><a class="anchor" id="favectorD"></a>
+Funcion de Abstraccion</h1>
+<p>Un objeto <em>f</em> del TDA <a class="el" href="classvectorD.html">vectorD</a> debe cumplir:</p>
+<p>-<code>f.n_ele</code> es el número de elementos del <a class="el" href="classvectorD.html">vectorD</a></p>
+<p>-<code>f.vd</code> es una lista de pair&lt;int, T&gt;, donde int es la posicion del vector y T es el contenido de dicha posición.</p>
+<p>-<code>f.v_nulo</code> es el valor del <a class="el" href="classvectorD.html">vectorD</a> que es nulo</p>
+<h1><a class="anchor" id="irvectorD"></a>
+Invariante de Representación</h1>
+<p>Un objeto válido <em>rep</em> del TDA <a class="el" href="classvectorD.html">vectorD</a> representa una lista solo con valores distintos de v_nulo y n_ele&gt;=0</p>
+<p>f.n_ele debe ser mayor o igual a 0.</p>
+<p>f.vd no puede tener elementos que sean distintos de valor nulo. vd-&gt;second != v_nulo Se accede mediante: {f.vd-&gt;first, f.vd-&gt;second} </p>
+</div></div><!-- contents -->
+</div><!-- doc-content -->
+<hr>
+<small>ETS Ingeniería Informática y Telecomunicaciones. Universidad de Granada.
+</small>

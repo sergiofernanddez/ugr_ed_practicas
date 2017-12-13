@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "memory": "cpp",
+        "utility": "cpp",
+        "__tree": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "__bit_reference": "cpp",
+        "iterator": "cpp",
+        "iosfwd": "cpp",
+        "ostream": "cpp"
+    }
+}
