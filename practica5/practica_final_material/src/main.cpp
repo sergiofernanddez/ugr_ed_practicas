@@ -1,3 +1,8 @@
+//Sergio Fernández Fernández
+//Bate Ye
+//Grupo B2
+//Estructura de Datos
+
 #include <fstream>
 #include <iostream>
 #include <string>
